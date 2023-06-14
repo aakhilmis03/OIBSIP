@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 4rem;
+    display: flex;
+    margin-left: 5rem;
+}
+.logo p{
+    margin-top: 2rem;
+    color: whitesmoke;
+    padding-left: 4rem;
+    font-size: 25px;
+}
+.navupper ul{
+    margin-top: 2em;
+    margin-right: 2em;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.navupper ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 2rem;
+    color: aqua;
+    font-size: 27px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 50px;
+  }
+  .home::after{
+      content: '';
+      background: url(Images/home1.jpg) no-repeat center center/cover;
+      position:absolute;
+      top: 0px;
+      left: 0px;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+  } 
+  .home-p{
+    margin-top: 10rem;
+    margin-left: 30em;
+  }
+  .home1 h1{
+    font-size: 4rem;
+  }
+  .home1 p{
+    margin-top: 5rem;
+    font-size: 30px;
+  }
+  button{
+    font-size: 1.3rem;
+    border-radius: 10px;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+.second{
+   margin-top: 20rem; 
+}
+  .sec-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:500px;
+    min-height:0vh;
+    max-height: 90vh;
+    margin-right: 500px;
+  }
+ 
+  .upper-1 img{
+    margin-top: 2rem;
+  }
+  .upper-2 {
+    margin-top:20px;
+}
+.upper-2 h2{
+    font-size: 2rem;
+}
+.upper-2 p{
+    font-size: 20px;
+}
+.upper-2 h2,p{
+   padding-left: 2rem;
+}
+
+.sec-lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4em;
+}
+.youu{
+   display: flex;
+   justify-content: center;
+    font-size: 3rem;
+    margin-top: 3em;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.third{
+  margin-top: 3em;
+  background: pink;
+}
+
+.alone{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.third-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-sec h2{
+  color: rgb(3, 15, 25);
+  font-size:3rem;
+}
+.snd p{
+  color:black;
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+}
+.last{
+  margin-top: 2rem;
+  font-family: 'Tinos', serif;
+  font-size: 1.5rem;
+}
+.one{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.padding{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.padding i{
+  font-size: 4rem;
+}
+.Featured{
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  /* justify-content: center; */
+}
+.firstbox{
+  background-color: rgb(66, 5, 5);
+  color: aliceblue;
+  width: 50vw;
+}
+.underfirst{
+ max-height: 60%;
+ min-height: 40%;
+ margin: 170px;
+}
+form{
+  min-height: 30px;
+  max-height: 50px;
+}
+.undersecond{
+  margin: 170px;
+}
+.secondbox{
+  background: url(Images/footer.jpg) no-repeat center center/cover;
+  width: 50vw;
+}
+.enter{
+  font-size: 1.4rem;
+}
+#email{
+  font-size: 1rem;
+}
+#button{
+  font-size: 1.2rem;
+  background-color: rgb(48, 145, 189);
+}
+.underfirst .add{
+  font-size: 20px;
+  margin-top: 3em;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+.left{
+  font-size: 20px;
+  margin-left: 70px;
+  margin-right: 60px;
+}
+.ph{
+  margin-left:50px;
+  font-size: 20px;
+}
+.img{
+  margin-top:2em;
+}
+.img a{
+  padding: 2em;
+}
+.undersecond{
+  margin-top: 30%;
+}
